@@ -1,0 +1,66 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.project
+.classpath
+.settings/
+.factorypath
+
+# Build
+**/target/
+**/build/
+**/.gradle/
+**/out/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Java / Spring
+*.log
+spring-shell.log
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.jks
+secrets/
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+
+# Node (if tooling added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Docker / local data
+**/data/
+.docker/
+
+# Test / coverage
+**/coverage/
+**/htmlcov/
+*.exec
+.jacoco/
+
+# Protobuf generated (if not committed)
+**/generated/
+**/generated-sources/
+
+# Misc
+*.tmp
+*.bak
+.cache/
