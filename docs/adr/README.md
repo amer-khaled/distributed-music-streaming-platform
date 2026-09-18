@@ -20,3 +20,4 @@ Each ADR uses:
 | [0003](0003-communication-patterns.md) | REST, gRPC, and Kafka usage | Accepted |
 | [0004](0004-first-cut-topology.md) | First-cut topology and delivery waves | Accepted |
 | [0005](0005-database-per-service.md) | Database-per-service | Accepted |
+| [0006](0006-service-discovery-eureka.md) | Service discovery with Eureka | Accepted |

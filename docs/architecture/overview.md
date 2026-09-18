@@ -37,6 +37,8 @@ Domain service ──gRPC──► Domain service   (immediate need)
 Domain service ──Kafka─► Domain services  (async / fan-out)
 ```
 
+Service instances are resolved via **Eureka** (`discovery-service`) using `spring.application.name`. gRPC listen ports are published as Eureka metadata `grpc.port`. See [ADR-0006](../adr/0006-service-discovery-eureka.md).
+
 Full rules: [ADR-0003](../adr/0003-communication-patterns.md).
 
 ## First-cut topology
